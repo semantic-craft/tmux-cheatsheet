@@ -9,6 +9,14 @@ options:
   createIntermediateGroups: true
   groupSortPosition: top
 
+packages:
+  # Global hotkey to summon the cheatsheet (recorder UI + UserDefaults
+  # persistence). Uses Carbon hotkeys, so it needs no Accessibility grant and
+  # works inside the App Sandbox — keeping this app Mac App Store-eligible.
+  KeyboardShortcuts:
+    url: https://github.com/sindresorhus/KeyboardShortcuts
+    from: "2.0.0"
+
 settings:
   base:
     SWIFT_VERSION: "5.0"
@@ -27,6 +35,9 @@ targets:
     sources:
       - path: Sources
       - path: Resources
+    dependencies:
+      - package: KeyboardShortcuts
+        product: KeyboardShortcuts
     info:
       path: Support/Info.plist
       properties:

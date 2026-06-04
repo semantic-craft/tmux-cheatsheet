@@ -23,6 +23,13 @@ It's a standalone companion to [Tmux Kit](https://github.com/semantic-craft/mac-
 (the full GUI manager), but shares no code or data with it — the two are
 independent projects.
 
+## Usage
+
+- **Filter** as you type to find a shortcut by name, keys, section, or note.
+- **Click a row** to copy its key sequence to the clipboard.
+- **Summon from anywhere** with the global hotkey — default **⌘⌃⌥⇧C** (Hyper+C).
+  Press it again to hide. Rebind it in **Settings** (⌘,).
+
 ## Screenshots
 
 <!-- Drop a window screenshot at assets/screenshots/cheatsheet.png and uncomment: -->
