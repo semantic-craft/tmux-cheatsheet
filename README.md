@@ -32,10 +32,9 @@ independent projects.
 
 ## Screenshots
 
-<!-- Drop a window screenshot at assets/screenshots/cheatsheet.png and uncomment: -->
-<!-- <p align="center"><img src="assets/screenshots/cheatsheet.png" width="460"></p> -->
-
-_Coming soon._
+<p align="center">
+  <img src="assets/screenshots/cheatsheet.png" width="460" alt="Tmux Cheatsheet window showing searchable, click-to-copy shortcuts">
+</p>
 
 ## Build
 
